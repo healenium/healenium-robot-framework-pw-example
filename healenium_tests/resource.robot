@@ -9,7 +9,7 @@ Library           Browser    WITH NAME    PWB
 *** Variables ***
 ${TEST_PAGE}      https://healenium.github.io/healenium-test-env/index.html
 ${BROWSER}        chromium
-${PROXY_URL}      ws://localhost:8095
+${PROXY_URL}      ws://localhost:8095/hlm-playwright-proxy
 
 *** Keywords ***
 Open Remote Chrome Browser
